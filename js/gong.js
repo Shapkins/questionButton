@@ -10,7 +10,7 @@ button.addEventListener('click', timerRun);
 function timerRun(event) {
   event.stopPropagation();
   audio.src = './sounds/beep.mp3';
-  time = 23;
+  time = 71;
   button.removeEventListener('click', timerRun);
   timer = setInterval(tick, 1000); 
 }
