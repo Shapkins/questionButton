@@ -29,7 +29,7 @@ function tick() {
     audio.play();
     clearInterval(timer);
     timerScreen.textContent = 'Время';
-    audio.src = './sounds/beep-final.mp3';
+    audio.src = './sounds/beep.mp3';
     button.addEventListener('click', timerRun);
   }
 }
