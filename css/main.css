@@ -1,0 +1,23 @@
+.gong {
+  display: flex;
+  margin: auto;
+  width: 400px;
+  height: 150px;
+  background-color: #CCCCCC;
+  border: 1px solid #333333;
+  border-radius: 12px;
+}
+
+.gong p {
+  margin: auto;
+  color: #21778d;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.gong:hover {
+  cursor: pointer;
+}
