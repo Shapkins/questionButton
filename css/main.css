@@ -1,14 +1,15 @@
 .gong {
   display: flex;
   margin: auto;
-  width: 400px;
+  width: 60%;
   height: 150px;
   background-color: #CCCCCC;
   border: 1px solid #333333;
   border-radius: 12px;
+  box-sizing: border-box;
 }
 
-.gong p {
+p {
   margin: auto;
   color: #21778d;
   font-size: 40px;
@@ -18,6 +19,35 @@
   text-transform: uppercase;
 }
 
-.gong:hover {
+.gong:hover, .plus:hover, .minus:hover {
   cursor: pointer;
+}
+
+.scoring {
+  width: 20%;
+}
+
+.point {
+  display: flex;
+  margin: auto;
+  height: 75px;
+  background-color: #CCCCCC;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.result {
+  display: flex;
+  margin: auto;
+  width: 20%;
+  height: 150px;
+  background-color: #CCCCCC;
+  border: 1px solid #333333;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
 }
